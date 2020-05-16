@@ -22,7 +22,7 @@
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <svg viewBox="0 0 18 15" width="20px" height="17px">
               <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
             </svg>
           </span>
@@ -33,27 +33,18 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h2 id="game-audio-demoreel">Game Audio Demoreel</h2>
-<iframe src="https://player.vimeo.com/video/415638789" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-
-<!-- <br />
-<img src="assets/images/forest.jpg" alt="Forest" style="width:300px;height:350px;">  -->
-<!-- <audio controls>
-  <source src="assets/audio/forest.wav" type="audio/wav">
-</audio> -->
-
-
+        <div class="home"><div class="video_frame">
+    <iframe src="https://player.vimeo.com/video/415638789" width="960" height="520" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+  </div>
 
   <!-- display thumbnails -->
-  <div class="row">
+  <div class="container">
     
-    <div class="span4">
-      <a href="/jekyll/update/2020/04/30/metempsychosis.html"><h2>Metempsychosis - Godot Wild Jam </h2></a>
+    <div class="item">
+      <a href="/jekyll/update/2020/04/30/metempsychosis.html"><h2>Metempsychosis - GWJ#17</h2></a>
         <hr />
         <p>
         <img src="/assets/images/metempsychosis.png" style="height: 280px" align="center" />
-        
-        <!-- add audio -->
         
 
         </p>
@@ -69,13 +60,11 @@
         </p>
     </div>
     
-    <div class="span4">
+    <div class="item">
       <a href="/jekyll/update/2020/04/29/dream-again.html"><h2>Dream Again</h2></a>
         <hr />
         <p>
         <img src="/assets/images/dream_again.png" style="height: 280px" align="center" />
-        
-        <!-- add audio -->
         
 
         </p>
@@ -91,13 +80,11 @@
         </p>
     </div>
     
-    <div class="span4">
+    <div class="item">
       <a href="/jekyll/update/2020/04/29/forest.html"><h2>Forest - music for a painting</h2></a>
         <hr />
         <p>
         <img src="/assets/images/forest.jpg" style="height: 280px" align="center" />
-        
-        <!-- add audio -->
         
 
         </p>
@@ -113,13 +100,11 @@
         </p>
     </div>
     
-    <div class="span4">
+    <div class="item">
       <a href="/jekyll/update/2020/04/29/space-squids.html"><h2>Space Squids: Race in Space</h2></a>
         <hr />
         <p>
         <img src="/assets/images/space_squids.png" style="height: 280px" align="center" />
-        
-        <!-- add audio -->
         
 
         </p>
@@ -135,13 +120,54 @@
         </p>
     </div>
     
+    <div class="item">
+      <a href="/jekyll/update/2019/12/01/journey.html"><h2>Journey in F</h2></a>
+        <hr />
+        <p>
+        <img src="/assets/images/journey.jpeg" style="height: 280px" align="center" />
+        
+
+        </p>
+        <audio controls>
+          <source src="/assets/audio/journey.wav" type="audio/wav">
+        </audio>
+        <p>&nbsp;</p>
+        <p>
+        An ensemble piece performed by Trio Burlesco
+        </p>
+        <p>
+        <a class="btn" href="/jekyll/update/2019/12/01/journey.html">Read more...</a>
+        </p>
+    </div>
+    
+    <div class="item">
+      <a href="/jekyll/update/2019/12/01/growth.html"><h2>Growth</h2></a>
+        <hr />
+        <p>
+        <img src="/assets/images/growth.jpg" style="height: 280px" align="center" />
+        
+
+        </p>
+        <audio controls>
+          <source src="/assets/audio/growth_1.wav" type="audio/wav">
+        </audio>
+        <p>&nbsp;</p>
+        <p>
+        A co-op adventure game set in Etheopia
+        </p>
+        <p>
+        <a class="btn" href="/jekyll/update/2019/12/01/growth.html">Read more...</a>
+        </p>
+    </div>
+    
   </div>
+</div>
 
   <!--<h2 class="post-list-heading">Music</h2>
     <ul class="post-list"><li><span class="post-meta">Apr 30, 2020</span>
         <h3>
           <a class="post-link" href="/jekyll/update/2020/04/30/metempsychosis.html">
-            Metempsychosis - Godot Wild Jam 
+            Metempsychosis - GWJ#17
           </a>
         </h3></li><li><span class="post-meta">Apr 29, 2020</span>
         <h3>
@@ -158,11 +184,19 @@
           <a class="post-link" href="/jekyll/update/2020/04/29/space-squids.html">
             Space Squids: Race in Space
           </a>
+        </h3></li><li><span class="post-meta">Dec 1, 2019</span>
+        <h3>
+          <a class="post-link" href="/jekyll/update/2019/12/01/journey.html">
+            Journey in F
+          </a>
+        </h3></li><li><span class="post-meta">Dec 1, 2019</span>
+        <h3>
+          <a class="post-link" href="/jekyll/update/2019/12/01/growth.html">
+            Growth
+          </a>
         </h3></li></ul> -->
 
     <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>-->
-
-</div>
 
       </div>
     </main><footer class="site-footer h-card">
