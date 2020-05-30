@@ -130,9 +130,9 @@ table td { border: 1px solid #9859a3; }
 
 .post-link { display: block; font-size: 27px; }
 
-.container { /* We first create a flex layout context */ display: flex; /* Then we define the flow direction  and if we allow the items to wrap  Remember this is the same as: flex-direction: row; flex-wrap: wrap; */ flex-flow: row wrap; /* Then we define how is distributed the remaining space */ justify-content: flex-start; }
+.container { /* We first create a flex layout context */ display: flex; flex-direction: row; flex-wrap: wrap; /* Then we define how is distributed the remaining space */ justify-content: space-between; }
 
-.item { flex: 0 0 50%; flex-shrink: 3; }
+.item { flex: 0 0 30%; }
 
 .video_frame { display: flex; justify-content: center; }
 
